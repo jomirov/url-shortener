@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(168, 167, 167);
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#form-container {
+    display: flex;
+    flex-direction: column;
+    background: rgb(93, 134, 255);
+    padding: 40px;
+    border-radius: 20px
+}
+
+#shortening-url-form {
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+}
+
+#shortening-url-form label {
+    color: white;
+}
+
+#shortening-url-form input {
+    padding: 4px 10px;
+    background-color:rgb(226, 246, 254);
+    outline: none;
+    border: none;
+    border-radius: 5px
+}
+
+#shortening-url-form button {
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    margin-top: 10px;
+    cursor: pointer
+}
+
+#shortening-url-form button:hover {
+    background: rgb(212, 212, 212)
+}
+
+#redirecting-container {
+    display: flex;
+    width: 650px;
+    flex-direction: column;
+    height: auto;
+    background: rgb(93, 134, 255);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#redirecting-links-table {
+    border-collapse: collapse;
+    width: 100%
+}
+
+#redirecting-links-table th, #redirecting-links-table td {
+    border: 1px solid rgb(49, 100, 252);
+    color: rgb(33, 33, 33);
+}
+#redirecting-links-table tr td:nth-child(2) {
+    word-break: break-word;
+}
+
+#redirecting-links-table td.link-del-td {
+    border: none;
+}
+.link-del-btn {
+    position: relative;
+    left: 10px;
+    border: none;
+    border-radius: 3px;
+    background: rgb(249, 62, 62);
+    color: white;
+    cursor: pointer;
+}
+.link-del-btn:hover {
+    background: rgb(221, 40, 40);
+}

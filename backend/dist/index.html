@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="form-container">
+            <form id="shortening-url-form">
+                <label for="url">Ваш URL</label>
+                <input placeholder="URL" id="url" required>
+                <label for="short-alias">Короткий путь (Не обязательно)</label>
+                <input placeholder="Short alias" id="short-alias">
+                <button type="submit">Создать</button>
+            </form>
+        </div>
+        <div id="redirecting-container">
+            <table id="redirecting-links-table">
+            </table>
+        </div>
+    </div>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
